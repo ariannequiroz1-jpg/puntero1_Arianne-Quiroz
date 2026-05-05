@@ -4,8 +4,11 @@ int main(){
     int *x;
     a = *x;
     x = &num; //x se le asigna a la direccion de num
-    printf("Direccion de x:%p",x);
-    printf("%p",x);
-    printf("%p",x);
-
+    printf("%p %d\n",x);
+    char letra = 'a' , c;
+    char *ptr;
+    ptr = &letra;
+    c= *ptr;
+    printf("%p %c",ptr , c);
+    
 }
