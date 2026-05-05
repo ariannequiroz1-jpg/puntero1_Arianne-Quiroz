@@ -10,11 +10,11 @@ int main(){
     ptr = &letra;
     c= *ptr;
     printf("%p %c\n",ptr , c); // trabajo con decimales 
-    float decimal= 3.14, dec;
+    float decimal = 3.14, dec;
     float *ptrF;
     ptrF = &decimal;
     dec = *ptrF;
-    printf("%p %c\n",ptrF , dec);
+    printf("%p %.2f\n",ptrF , dec);
     return 0;
     
 }
